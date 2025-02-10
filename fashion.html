@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <link rel="stylesheet" href="./css/common/skeleton.css">
+    <link rel="stylesheet" href="./css/common/header.css">
+    <link rel="stylesheet" href="./css/common/footer.css">
+    <link rel="stylesheet" href="./css/common/new-grid.css">
+    <link rel="stylesheet" href="./css/fashion/style.css">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                autoplay: true,
+                arrows: true,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./images/icons/logo.svg" alt="logo">
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="./index.html">Work</a></li>
+            <li><a href="./about-me.html">About Me</a></li>
+            <li><a href="https://www.linkedin.com/in/nadi-epina/" target="_blank">LinkedIn</a></li>
+            <li><a href="./docs/resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </header>
+</div>
+
+<div class="bg">
+    <div class="container">
+        <div class="grid">
+            <div class="column-4 column-sm-4 elem">
+                <img src="./images/fashion/logo.png">
+            </div>
+            <div class="column-8 column-sm-4 elem">
+                <img src="./images/fashion/header-mobile.png">
+            </div>
+            <div class="column-3 column-sm-2">
+                <p><b>Project Type</b></p>
+                <p>Fashion app</p>
+            </div>
+            <div class="column-3 column-sm-2">
+                <p><b>My Role</b></p>
+                <p>UX / UI designer</p>
+            </div>
+            <div class="column-3 column-sm-2">
+                <p><b>Project Timeline</b></p>
+                <p>3 weeks</p>
+            </div>
+            <div class="column-3 column-sm-2">
+                <p><b>Project Stack</b></p>
+                <p>Figma, Trello, Adobe</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section>
+        <div class="introduction">
+            <img src="./images/fashion/h-mobile-screen-1.png" style="grid-area: image">
+            <div style="grid-area: introduction">
+                <p><b>Introduction</b></p>
+                <p>Discover how the Tokyo Fashion Street app revitalizes the experience of exploring street
+                    fashion. We've
+                    transformed the app into a digital hub of style inspiration, leveraging user-centered design to
+                    enhance
+                    engagement and conversion rates.</p>
+            </div>
+            <div style="grid-area: lists">
+                <div class="grid">
+                    <div class="column-6">
+                        <p><b>Issues</b></p>
+                        <ul>
+                            <li>Users are unable to search</li>
+                            <li>Difficult navigation</li>
+                            <li>Lack of purchasing options</li>
+                            <li>No filter options</li>
+                        </ul>
+                        <br>
+                        <p><b>User Goals</b></p>
+                        <ul>
+                            <li>Opportunity to get inspiration from improved photos</li>
+                            <li>Improve user engagement and satisfaction by enhancing the overall shopping experience
+                            </li>
+                            <li> Enable users to search for their preferred brands easily</li>
+                        </ul>
+                    </div>
+                    <div class="column-6">
+                        <p><b>Solutions</b></p>
+                        <ul>
+                            <li>Add search and filter functions</li>
+                            <li>Integrate purchase options</li>
+                            <li>Optimize purchase process</li>
+                            <li>Change home-page</li>
+                        </ul>
+                        <br>
+                        <p><b>Business Goals</b></p>
+                        <ul>
+                            <li>E-commerce (Affinity marketing)</li>
+                            <li>Provide seamless access to purchasing options for clothing featured on the app.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Homepage</h2>
+            <p>During my research I discovered that the homepage was ineffificent. I decided to combine both inspiration
+                and the option for purchasing products.</p>
+            <img src="./images/fashion/h-s-1-1.png">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section>
+        <div class="grid">
+            <div class="column-3">
+                <img src="./images/fashion/kate-l.png">
+            </div>
+            <div class="column-9">
+                <h2>User persona</h2>
+                <div class="grid">
+                    <div class="column-6">
+                        <p><b>Kate L.</b></p>
+                        <ul>
+                            <li>A trend-savvy college student who values quick, stylish insights</li>
+                            <li>Enjoys using social media platforms to find inspiration for her art</li>
+                            <li>Wants to pilot overseas fashion trends to US audiences</li>
+                        </ul>
+                        <p><b>Backstory</b></p>
+                        <p>Kate searches for inspiration when she needs new clothes, professional and personal, and pays
+                            close
+                            attention to brands and influencers/models to reach out for freelance opportunities when she
+                            hears
+                            of new brand launches.</p>
+                    </div>
+                    <div class="column-6">
+                        <p><b>Goals</b></p>
+                        <ul>
+                            <li>Keeps track of growing fashion brands to someday work with them</li>
+                            <li>Believes her style leaves a lasting impression</li>
+                            <li>Make professional first impressions</li>
+                        </ul>
+                        <p><b>Pain Points</b><br></p>
+                        <ul>
+                            <li>Losing inspiring outfits ot being able to pinpoint the right aesthetic or clothing items
+                            </li>
+                            <li>Not being able to trace the brand name or clothing creator</li>
+                            <li>Overwhelmed by too many choices and complex navigation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-6">
+                <div class="user-persona-card">
+                    <div class="grid" style="align-items: center; height: 100%">
+                        <div class="column-4 column-sm-1">
+                            <svg width="85" height="84" viewBox="0 0 85 84" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="42.7379" cy="42.0707" r="39.7009" stroke="white"
+                                        stroke-width="4.12229"></circle>
+                                <path d="M22.8657 40.7954L37.9447 55.8744" stroke="white" stroke-width="4.15526"></path>
+                                <path d="M33.7618 57.1523L62.02 28.8943" stroke="white" stroke-width="4.15526"></path>
+                            </svg>
+                        </div>
+                        <div class="column-8 column-sm-3">
+                            <p><b>Users Wanted</b></p>
+                            <ul>
+                                <li>Organized navigation</li>
+                                <li>Search feature!</li>
+                                <li>Thoughtfully branded, sleek user interface</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-6">
+                <div class="user-persona-card">
+                    <div class="grid" style="align-items: center; height: 100%">
+                        <div class="column-4 column-sm-1 flex x-y-center">
+                            <svg width="85" height="84" viewBox="0 0 85 84" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="42.7379" cy="41.8089" r="39.7009" stroke="white"
+                                        stroke-width="4.12229"></circle>
+                                <path d="M27.6584 26.7256L42.7374 41.8046L27.6584 56.8836" stroke="white"
+                                      stroke-width="4.15526"></path>
+                                <path d="M57.8166 56.8877L42.7376 41.8087L57.8166 26.7297" stroke="white"
+                                      stroke-width="4.15526"></path>
+                            </svg>
+                        </div>
+                        <div class="column-8 column-sm-3 flex y-center">
+                            <p><b>Users Disliked</b></p>
+                            <ul>
+                                <li>Outdated user interface</li>
+                                <li>Confusing navigation no</li>
+                                <li>Onboarding experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-7 column-sm-4">
+                <h2>Lo-Fi Prototype</h2>
+            </div>
+            <div class="column-5 column-sm-4">
+                <p>Developed initial prototypes to test navigation flows and layout concepts, ensuring the design met
+                    user expectations for simplicity and efficiency.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-12 column-sm-4">
+                <img src="./images/fashion/lo-fi-prototype.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-7 column-sm-4">
+                <h2>feature matrix</h2>
+            </div>
+            <div class="column-5 column-sm-4">
+                <p>The analysis of functionality through Feature Matrix has provided us with a <b>deep understanding of
+                    the
+                    current and desired state</b> of TokyoFashion application design.</p>
+            </div>
+            <div class="column-12 column-sm-4">
+                <img src="./images/fashion/m-table.png">
+            </div>
+        </div>
+    </section>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Features</h2>
+            <p>The app was lacking a “search” and “filter” function. This meant that the company was missing out on
+                income opportunities.</p>
+            <img src="./images/fashion/h-s-2.png">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section>
+        <div class="grid">
+            <div class="column-6">
+                <h2>Competitive Analysis</h2>
+                <p>My goal was to study competitors in fashion industry, focusing on Japanese style, to understand their
+                    strengths, weaknesses, and innovative features. <b>I am researching the search and filtering
+                        functions
+                        of
+                        competitors to identify best practices.</b></p>
+
+                <p><b>SUMMARY</b></p>
+                <ul class="nums">
+                    <li><b>Reputation and Stylish Design:</b> Competitors like Style-arena and Droptokyo.com are known
+                        for
+                        their reputation and stylish design, which could attract users.
+                    </li>
+                    <li>
+                        <b>Simplicity of Navigation:</b> Some competitors, such as Instagram, offer simple navigation,
+                        which
+                        can be appealing to users looking for ease of use.
+                    </li>
+                    <li><b>Content Limitations:</b> Platforms like Instagram and Pinterest have content limitations due
+                        to
+                        algorithms, potentially leading to less diverse fashion content.
+                    </li>
+                    <li><b>Access to Content:</b> Vogue restricts access to its best content behind a paywall, which
+                        could
+                        be a
+                        barrier for users.
+                    </li>
+                    <li>
+                        <b>
+                            Based on these insights, Tokyo Fashion App could develop a strategy to improve its search
+                            and
+                            filter
+                            functionality, taking into account the strengths and weaknesses of its competitors.
+                        </b>
+                    </li>
+                </ul>
+            </div>
+            <div class="column-1 column-sm-0"></div>
+            <div class="column-5">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="item">
+                            <div class="content">
+                                <img src="./images/fashion/vogue.png">
+                                <p>Legacy brand with cross-platform continuity , and global access to fashion at all
+                                    levels</p>
+
+                                <p><b>Strengths</b></p>
+                                <ul>
+                                    <li>frequently updated</li>
+                                    <li>lots of photos</li>
+                                    <li>sleek design</li>
+                                </ul>
+                                <br>
+                                <p><b>Weaknesses</b></p>
+                                <ul>
+                                    <li>Often stuck behind a paywall after viewing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item slick-slide"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/pinterest.png">
+                                <p>Created in 2002, includes maps of fashion styles and functions almost like a
+                                    archive
+                                    of street fashion</p>
+
+                                <p><b>Strengths</b></p>
+                                <ul>
+                                    <li>Highly visual</li>
+                                    <li>Grid layout</li>
+                                    <li>Search functionality</li>
+                                    <li>Personal boards</li>
+                                    <li>Shopping integration</li>
+                                </ul>
+                                <br>
+
+                                <p><b>Weaknesses</b><br></p>
+                                <ul>
+                                    <li>Limited social interaction</li>
+                                    <li>Only shows content that the algorithm thinks they will like</li>
+                                    <li>Slow loading on the app and mobile web version</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item slick-slide"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/instagram.png">
+                                2010, photo and video sharing social networking service owned by Meta Platforms <br><br>
+
+                                <p><b>Strengths</b></p>
+                                <ul>
+                                    <li>highly visual</li>
+                                    <li>user engagement features</li>
+                                    <li>explore pages</li>
+                                    <li>e-commerce integrations</li>
+                                </ul>
+                                <br>
+
+                                <p><b>Weaknesses</b><br></p>
+                                <ul>
+                                    <li>algorithmic feed only shows things that are tailored to a user's likes
+                                        limited
+                                    </li>
+                                    <li>customization for profiles</li>
+                                    <li>you cant share links in posts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item slick-slide slick-current slick-active"
+                             aria-hidden="false" tabindex="0">
+                            <div class="content">
+                                <img src="./images/fashion/style-arena.png">
+                                <p>Launched in 2007, they focus on the ever - changing fashion scene, seeking to
+                                    support the
+                                    development of the existing fashion culture in Tokyo</p>
+
+                                <p><b>Strengths</b></p>
+                                <ul>
+                                    <li>clean design</li>
+                                    <li>well organized</li>
+                                    <li>frequently updated</li>
+                                    <li>auto-scrolling main page with fashion photos</li>
+                                </ul>
+                                <br>
+
+                                <p><b>Weaknesses</b></p>
+                                <ul>
+                                    <li>design is a little basic / nondescript</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="item slick-slide"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/drop-tokyo.png">
+                                Created in 2002, includes maps of fashion styles and functions almost like a archive
+                                of street
+                                fashion.
+                                <br><br>
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>Interesting design</li>
+                                    <li>frequent updates for photography</li>
+                                </ul>
+                                <br>
+                                <b>Weaknesses</b>
+                                <ul>
+                                    <li>design can be a bit confusing the navigate.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item slick-slide"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/vogue.png">
+                                Legacy brand with cross-platform continuity , and global access to fashion at all
+                                levels<br><br>
+
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>frequently updated</li>
+                                    <li>lots of photos</li>
+                                    <li>sleek design</li>
+                                </ul>
+                                <br>
+                                <b>Weaknesses</b>
+                                <ul>
+                                    <li>Often stuck behind a paywall after viewing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/pinterest.png">
+                                Created in 2002, includes maps of fashion styles and functions almost like a archive
+                                of
+                                street fashion<br><br>
+
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>Highly visual</li>
+                                    <li>Grid layout</li>
+                                    <li>Search functionality</li>
+                                    <li>Personal boards</li>
+                                    <li>Shopping integration</li>
+                                </ul>
+                                <br>
+
+                                <b>Weaknesses</b><br>
+                                <ul>
+                                    <li>Limited social interaction</li>
+                                    <li>Only shows content that the algorithm thinks they will like</li>
+                                    <li>Slow loading on the app and mobile web version</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="content">
+                                <img src="./images/fashion/instagram.png">
+                                2010, photo and video sharing social networking service owned by Meta Platforms <br><br>
+
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>highly visual</li>
+                                    <li>user engagement features</li>
+                                    <li>explore pages</li>
+                                    <li>e-commerce integrations</li>
+                                </ul>
+                                <br>
+
+                                <b>Weaknesses</b><br>
+                                <ul>
+                                    <li>algorithmic feed only shows things that are tailored to a user's likes
+                                        limited
+                                    </li>
+                                    <li>customization for profiles</li>
+                                    <li>you cant share links in posts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/style-arena.png">
+                                Launched in 2007, they focus on the ever - changing fashion scene, seeking to
+                                support the
+                                development of the existing fashion culture in Tokyo<br><br>
+
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>clean design</li>
+                                    <li>well organized</li>
+                                    <li>frequently updated</li>
+                                    <li>auto-scrolling main page with fashion photos</li>
+                                </ul>
+                                <br>
+
+                                <b>Weaknesses</b>
+                                <ul>
+                                    <li>design is a little basic / nondescript</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="item"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/drop-tokyo.png">
+                                Created in 2002, includes maps of fashion styles and functions almost like a archive
+                                of street
+                                fashion.
+                                <br><br>
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>Interesting design</li>
+                                    <li>frequent updates for photography</li>
+                                </ul>
+                                <br>
+                                <b>Weaknesses</b>
+                                <ul>
+                                    <li>design can be a bit confusing the navigate.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item"
+                        >
+                            <div class="content">
+                                <img src="./images/fashion/vogue.png">
+                                Legacy brand with cross-platform continuity , and global access to fashion at all
+                                levels<br><br>
+
+                                <b>Strengths</b>
+                                <ul>
+                                    <li>frequently updated</li>
+                                    <li>lots of photos</li>
+                                    <li>sleek design</li>
+                                </ul>
+                                <br>
+                                <b>Weaknesses</b>
+                                <ul>
+                                    <li>Often stuck behind a paywall after viewing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="container">
+    <section>
+        <div class="grid">
+            <div class="column-6 column-sm-4">
+                <h2>Affinity Diagrams</h2>
+            </div>
+            <div class="column-6 column-sm-4">
+                <p>User preference analysis <b>confirmed significant interest in search and filtering
+                    features</b> in the app. Implementing these features will enhance navigation, increase user
+                    engagement, and
+                    boost conversions, providing a competitive edge and enabling data collection for further product
+                    improvements</p>
+            </div>
+            <div class="column-12 column-sm-4">
+                <img src="./images/fashion/a-d-diag-1.png">
+            </div>
+            <div class="column-12 column-sm-4">
+                <img src="./images/fashion/a-d-diag-2.png">
+            </div>
+        </div>
+    </section>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Inspiration, Engagement, & Conversion</h2>
+            <p>Users were inspired by fashion trends showcased in the app but found it difficult to transition from
+                inspiration to purchase, leading to missed revenue opportunities and reduced satisfaction.</p>
+            <img src="./images/fashion/3 insight.png">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section>
+        <div class="grid y-center">
+            <div class="column-6 column-sm-4">
+                <h2>User Flow Improvements</h2>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="column-4 column-sm-4">
+                <p><b>Simplified Navigation:</b><br> The restructuring of the navigation menu based on user testing
+                    results
+                    in
+                    reduced search times and increased satisfaction.</p>
+            </div>
+            <div class="column-4 column-sm-4">
+                <p><b>Enhanced Product Visuals:</b><br> By increasing the size and quality of product images, we have
+                    seen a
+                    notable increase in user engagement and a decrease in bounce rates on product pages.</p>
+            </div>
+            <div class="column-4 column-sm-4">
+                <p><b>Enhanced Product Visuals:</b><br> By increasing the size and quality of product images, we have
+                    seen a
+                    notable increase in user engagement and a decrease in bounce rates on product pages.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-12">
+                <img src="./images/fashion/h-s-4.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-12 column-sm-4">
+                <h2>Hi-Fi Prototype</h2>
+            </div>
+            <div class="column-6 column-sm-4">
+                <iframe src="https://giphy.com/embed/z92uMRywgv2FintLdN" width="100%" height="640" frameborder="0"
+                        class="giphy-embed" allowfullscreen=""></iframe>
+                <p><a href="https://giphy.com/gifs/z92uMRywgv2FintLdN"></a></p>
+            </div>
+            <div class="column-6 column-sm-4">
+                <iframe src="https://giphy.com/embed/L0VeS80cR6zisQJwKn" width="100%" height="640" frameborder="0"
+                        class="giphy-embed" allowfullscreen=""></iframe>
+                <p><a href="https://giphy.com/gifs/L0VeS80cR6zisQJwKn"></a></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="column-7 column-sm-4">
+                <h2>Future plans</h2>
+                <ul>
+                    <li>Introduce sponsored posts</li>
+                    <li>Flesh out checkout process</li>
+                    <li>Develop creator portal onboarding process</li>
+                    <li>Change inspo - patterns</li>
+                    <li>Product Range Expansion: Plans to add new product categories based on user interests and
+                        requests
+                    </li>
+                    <li>Personalized Offers: Developing a system for personalized recommendations based on users'
+                        purchase
+                        history and preferences to increase loyalty and retention
+                    </li>
+                </ul>
+            </div>
+            <div class="column-5 column-sm-4">
+                <img src="./images/fashion/h-s-8.png">
+            </div>
+        </div>
+    </section>
+</div>
+<div class="container">
+    <footer>
+        <div class="logo"><img src="./images/icons/logo-mono.svg"></div>
+        <ul class="social">
+            <li><a href="https://www.linkedin.com/in/nadi-epina" target="_blank"><img src="./images/icons/in.svg"
+                                                                                      alt="LinkedIn"></a></li>
+            <li><a href="mailto:nadyepik@gmail.com" target="_blank"><img src="./images/icons/email.svg" alt="Email"></a>
+            </li>
+            <li><a href="https://www.facebook.com/nadi.epina" target="_blank"><img src="./images/icons/fb.svg"
+                                                                                   alt="Facebook"></a></li>
+        </ul>
+        <div class="place">USA, San Francisco</div>
+    </footer>
+</div>
+</body>
+</html>

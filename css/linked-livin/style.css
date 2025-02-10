@@ -1,0 +1,137 @@
+section {
+    margin: 2rem 0 6rem 0;
+}
+
+section.top {
+    background: #D8BEB0;
+}
+section.pd {
+    padding: 4rem;
+}
+
+section.four-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+section.tree-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.bordered-block {
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    border: 3px solid #E2E2E2;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bordered-block object {
+    max-width: 9rem;
+    margin-bottom: 2rem;
+}
+
+section.box-shadow {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    padding: 4rem;
+}
+
+.preview {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.preview object {
+    position: relative;
+    z-index: 1;
+}
+
+.preview .scroll {
+    background-image: url("/images/linked-livin/5.png");
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 8px;
+    bottom: 8px;
+    border-radius: 40px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+    animation-name: move-background;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-background {
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        margin: 2rem 0 4rem 0;
+    }
+
+    section.four-two {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.tree-one {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+
+    .bordered-block object {
+        max-width: 6rem;
+        margin-bottom: 2rem;
+    }
+
+
+    section.box-shadow {
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+        padding: 2rem;
+    }
+
+    .bordered-block {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section.four-two {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bordered-block object {
+        max-width: 8rem;
+        margin-bottom: 2rem;
+    }
+
+
+    section.tree-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "tangak";
+    src: url("./tangak.otf") format("opentype");
+}
+
+b {
+    font-weight: 900 !important;
+}
+
+h1, h2, h4 {
+    font-family: tangak;
+}
+
+.first-block {
+    background: url('../../images/campus/img_12.png') center;
+    margin-bottom: 8rem;
+}
+
+section {
+    padding: 2.6rem 0;
+}
